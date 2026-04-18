@@ -159,13 +159,13 @@ export default function FinalSurprisePage() {
           </button>
 
           <div className="min-h-[120px] rounded-[22px] bg-white/15 px-5 py-5 backdrop-blur-sm">
-            {message ? (
-              <p className="text-sm leading-7 text-white">{message}</p>
-            ) : (
-              <p className="text-sm leading-7 text-white/70">
-                Your surprise message will appear here, my love ✨
-              </p>
-            )}
+           {message ? (
+  <p className="text-sm leading-7 text-rose-900">{message}</p>
+) : (
+  <p className="text-sm leading-7 text-rose-800/70">
+    Your surprise message will appear here, my love ✨
+  </p>
+)}
           </div>
         </div>
 
