@@ -2,7 +2,7 @@ import { Link } from "react-router";
 import { useEffect, useState } from "react";
 
 function getTogetherTime() {
-  const startDate = new Date(2022, 3, 24, 15, 0, 29);
+  const startDate = new Date(2021, 4, 24, 15, 0, 29);
   const now = new Date();
 
   let years = now.getFullYear() - startDate.getFullYear();
@@ -52,7 +52,7 @@ export default function WelcomePage() {
 
       <section className="relative z-10 mx-auto flex min-h-screen w-full max-w-md flex-col items-center justify-center px-5 py-10 text-center">
         <p className="mb-4 rounded-full bg-white/70 px-4 py-2 text-sm font-medium text-rose-500 shadow-sm">
-          4 years of us • For my Boonoo
+          5 years of us • For my Boonoo
         </p>
 
         <img
@@ -70,7 +70,7 @@ export default function WelcomePage() {
         </div>
 
         <h1 className="mb-4 text-4xl font-bold leading-tight text-rose-600">
-          Happy 4 Years,
+          Happy 5 Years,
           <br />
           my Boonoo ❤
         </h1>
