@@ -11,10 +11,10 @@ const surpriseMessages = [
 
 function getAnniversaryCountdown() {
   const now = new Date();
-  let target = new Date(now.getFullYear(), 3, 24, 15, 0, 29);
+  let target = new Date(now.getFullYear(), 4, 24, 15, 0, 29);
 
   if (now > target) {
-    target = new Date(now.getFullYear() + 1, 3, 24, 15, 0, 29);
+    target = new Date(now.getFullYear() + 1, 4, 24, 15, 0, 29);
   }
 
   const diff = target - now;
@@ -74,7 +74,7 @@ export default function FinalSurprisePage() {
           />
 
           <h1 className="mb-4 text-4xl font-bold leading-tight text-white">
-            Happy 4 Years,
+            Happy 5 Years,
             <br />
             my Boonoo ❤
           </h1>
