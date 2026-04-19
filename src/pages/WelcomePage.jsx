@@ -2,7 +2,7 @@ import { Link } from "react-router";
 import { useEffect, useState } from "react";
 
 function getTogetherTime() {
-  const startDate = new Date(2021, 4, 24, 15, 0, 29);
+  const startDate = new Date(2021, 3, 24, 15, 0, 29);
   const now = new Date();
 
   let years = now.getFullYear() - startDate.getFullYear();
